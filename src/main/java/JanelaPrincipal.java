@@ -1,15 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
-import javax.swing.JOptionPane;
 /**@author ricar */
+import javax.swing.JOptionPane;
 import java.text.NumberFormat;
 import java.util.Locale;
 
 public class JanelaPrincipal extends javax.swing.JFrame {
-
-    /**  Creates new form JanelaPrincipal  */
+    
     public JanelaPrincipal() {
         initComponents();
     }
@@ -199,11 +194,11 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         String mensagem = nome + ", seu novo salário será: " + dinheiro.format(salario);
         JOptionPane.showMessageDialog(null, mensagem);
         lblnovosalario.setText(dinheiro.format(salario).toString());
-        //JOptionPane.showMessageDialog(null,mensagem);
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        txtnome.setText("");// TODO add your handling code here:
+        txtnome.setText("");
         txtsalario.setText("");
         txtreajuste.setText("");
         lblnovosalario.setText("");
